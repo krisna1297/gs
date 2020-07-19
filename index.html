@@ -25,6 +25,7 @@
           document.getElementById("loading").innerHTML = "Error: " + err;
           return;
         }
+        console.log(data);
         gooss.template(data);
         document.getElementById("loading").style.display = "none";
       });
